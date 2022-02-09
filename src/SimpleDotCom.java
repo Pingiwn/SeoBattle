@@ -4,16 +4,16 @@ public class SimpleDotCom {
 
     public String checkYouself(String stringGuess) {
         int guess = Integer.parseInt(stringGuess);
-        String result = "мимо";
+        String result = "мимо!";
         for(int cell: locationCells){
             if (guess == cell){
-                result = "Попал";
+                result = "Попал!";
                 numOfHits++;
                 break;
             }
         }
         if (numOfHits == locationCells.length){
-            result = "Потопил";
+            result = "Потопил!";
         }
         System.out.println(result);
         return  result;
