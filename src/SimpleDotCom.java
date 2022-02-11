@@ -18,8 +18,9 @@ public class SimpleDotCom {
         System.out.println(result);
         return  result;
     }
-    public void setLocationCells(int[] locs){
-        locationCells  = locs;
+    public void setLocationCells(int[] location){
+
+        locationCells  = location;
     }
 
 }
